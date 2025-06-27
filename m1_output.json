@@ -1,0 +1,124 @@
+[
+  {
+    "sentence": "她看见了真相，决定承认自己内心的恐惧。",
+    "tokens": [
+      "她",
+      "看见",
+      "了",
+      "真相",
+      "，",
+      "决定",
+      "承认",
+      "自己",
+      "内心",
+      "的",
+      "恐惧"
+    ],
+    "nodes": [
+      {
+        "word": "她",
+        "type": "subject",
+        "emotion": "中性",
+        "base_score": 0.7,
+        "repeat_bonus": 0.05,
+        "final_score": 0.75,
+        "gradient_level": "重要节点"
+      },
+      {
+        "word": "看见",
+        "type": "action",
+        "emotion": "中性",
+        "base_score": 0.9,
+        "repeat_bonus": 0.05,
+        "final_score": 0.95,
+        "gradient_level": "核心节点"
+      },
+      {
+        "word": "了",
+        "type": "unknown",
+        "emotion": "中性",
+        "base_score": 0.5,
+        "repeat_bonus": 0.05,
+        "final_score": 0.55,
+        "gradient_level": "辅助节点"
+      },
+      {
+        "word": "真相",
+        "type": "object",
+        "emotion": "正向",
+        "base_score": 0.8,
+        "repeat_bonus": 0.05,
+        "final_score": 0.85,
+        "gradient_level": "重要节点"
+      },
+      {
+        "word": "，",
+        "type": "unknown",
+        "emotion": "中性",
+        "base_score": 0.5,
+        "repeat_bonus": 0.05,
+        "final_score": 0.55,
+        "gradient_level": "辅助节点"
+      },
+      {
+        "word": "决定",
+        "type": "action",
+        "emotion": "中性",
+        "base_score": 0.9,
+        "repeat_bonus": 0.05,
+        "final_score": 0.95,
+        "gradient_level": "核心节点"
+      },
+      {
+        "word": "承认",
+        "type": "action",
+        "emotion": "正向",
+        "base_score": 0.9,
+        "repeat_bonus": 0.05,
+        "final_score": 0.95,
+        "gradient_level": "核心节点"
+      },
+      {
+        "word": "自己",
+        "type": "subject",
+        "emotion": "中性",
+        "base_score": 0.7,
+        "repeat_bonus": 0.05,
+        "final_score": 0.75,
+        "gradient_level": "重要节点"
+      },
+      {
+        "word": "内心",
+        "type": "unknown",
+        "emotion": "中性",
+        "base_score": 0.5,
+        "repeat_bonus": 0.05,
+        "final_score": 0.55,
+        "gradient_level": "辅助节点"
+      },
+      {
+        "word": "的",
+        "type": "unknown",
+        "emotion": "中性",
+        "base_score": 0.5,
+        "repeat_bonus": 0.05,
+        "final_score": 0.55,
+        "gradient_level": "辅助节点"
+      },
+      {
+        "word": "恐惧",
+        "type": "object",
+        "emotion": "负向",
+        "base_score": 0.8,
+        "repeat_bonus": 0.05,
+        "final_score": 0.85,
+        "gradient_level": "重要节点"
+      }
+    ],
+    "emotion_transition": {
+      "from": null,
+      "current": "正向",
+      "trend": "稳定"
+    }
+  }
+]
