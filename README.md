@@ -55,3 +55,8 @@ NovaSeed 不止是对话，它是一颗推理种子，目标是以结构驱动�
 
 Contributions are welcome. Feel free to fork, raise issues, or build your own reasoning modules!
 欢迎任何开发者参与本项目，您可以 fork、提出 Issue，或开发属于你自己的结构化模块！
+...
+
+---
+
+📄 License: MIT with commercial restriction — © 2025 Jacksth. Contact for commercial use or licensing.
