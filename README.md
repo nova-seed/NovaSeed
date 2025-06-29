@@ -1,5 +1,11 @@
-# NovaSeed
+
 # 🌱 NovaSeed
+> 🧠 This project is human-designed and AI-assisted.  
+> NovaSeed is fully conceptualized, structured, and developed by Rex,  
+> with selective use of tools like ChatGPT to assist in code generation, translation, and explanation refinement.
+> 
+> 🧠 本项目由人类主导，AI 辅助完成。  
+> NovaSeed 由 Rex 全程构思与架构，并在代码生成、术语翻译与表达优化等环节中有选择性使用 ChatGPT 等工具协助完成。
 
 ### 💡 What is NovaSeed?
 
