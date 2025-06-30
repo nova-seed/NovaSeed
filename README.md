@@ -1,68 +1,70 @@
+ 🌱 NovaSeed
 
-# 🌱 NovaSeed
 > 🧠 This project is human-designed and AI-assisted.  
 > NovaSeed is fully conceptualized, structured, and developed by Rex,  
 > with selective use of tools like ChatGPT to assist in code generation, translation, and explanation refinement.
-> 
-> 🧠 本项目由人类主导，AI 辅助完成。  
-> NovaSeed 由 Rex 全程构思与架构，并在代码生成、术语翻译与表达优化等环节中有选择性使用 ChatGPT 等工具协助完成。
 
-### 💡 What is NovaSeed?
-
-**Structural AI engine for emotional understanding and explainable reasoning.**  
-结构化语义AI引擎，支持情绪理解与可解释推理。
-
-NovaSeed is a modular AI system that reasons through structure — not brute-force data.  
-It forms closed-loop semantic chains for deep contextual understanding.
-
-NovaSeed 是一个模块化结构驱动的AI系统，摆脱对大数据依赖，通过节点语义构建完整的理解链路。
+> 🧠 本项目由人类主导，AI 协助完成。  
+> NovaSeed 由 Rex 全程构思与架构，并在代码生成、术语翻译与表达优化中适当使用 ChatGPT 等工具协助完成。
 
 ---
 
-### 🧩 Core Modules (M1–M9)
+ 🧠 What is NovaSeed?
 
-| ID  | Module           | Description                                   
-|-----|------------------|-----------------------------------------------
-| M1  | Input Router      | Sentence splitting, scoring, token emotion    |
-| M2  | Node Classifier   | Character, tone, background tagging           |
-| M3  | Path Reasoner     | Semantic chain break detection + recovery     |
-| M4  | Emotion Engine    | Emotional curve, intensity & transition       |
-| M5  | QA Generator      | Context-aware follow-up questions             |
-| M6  | Visual Renderer   | Output visualization / animation              |
-| M7  | File Transit      | Memoryless input-output transfer              |
-| M8  | User Interactor   | Dialogue sync, secondary prompts              |
-| M9  | Controller        | Task queue, chain logic & system control      |
+**Structural AI engine for emotional understanding and explainable reasoning. 
+结构化语义 AI 引擎，支持情绪理解与可解释推理。
+
+Unlike traditional AI that relies on massive data and statistical associations, NovaSeed parses meaning through modular logic, node analysis, and emotional reasoning paths.
+
+NovaSeed breaks down human expressions into node chains, evaluates emotional fluctuations through 5 dynamic factors, and provides reasoning-based response suggestions.
+
+NovaSeed 拆解人类语言为语义链条，通过结构化模块识别情绪波动、推理路径、偏差源，并生成解释型建议或回应。
 
 ---
 
-### 🚀 Try it Locally | 本地运行方法
+🧩 Core Modules (M1–M6) — 已完成模块：
 
-```bash
-python input_router.py
-
-Input file | 输入文件：input.txt
-
-Output file | 输出文件：m1_output.json
-包含句子、关键词、情绪流动、结构评分等字段。
-Includes sentence, keywords, emotion flow, structural score and more.
-
-📚 Documentation | 文档说明
-完整文档请查看 docs_Architecture.md 与 docs_Theory.md
-Complete documentation in docs_Architecture.md and docs_Theory.md, covering:
-
-模块架构 / 权重与情绪计算 / 扩展路线
-
-Module architecture / weight & emotion rules / future roadmap
-
-❤️ Vision 愿景
-NovaSeed is not a chatbot.
-It’s a seed of reasoning — aiming to rebuild AI from structure, not repetition.
-NovaSeed 不止是对话，它是一颗推理种子，目标是以结构驱动未来的 AI 智能。
-
-Contributions are welcome. Feel free to fork, raise issues, or build your own reasoning modules!
-欢迎任何开发者参与本项目，您可以 fork、提出 Issue，或开发属于你自己的结构化模块！
-...
+| ID   | Module Name       | Description |
+|------|-------------------|-------------|
+| M1   | Input Router      | 结构化输入分析，识别主谓宾、句式类型、语气触发类型 |
+| M2   | Emotion Analyzer  | 基于五因子机制动态评分，理解用户真实情绪路径 |
+| M3   | Path Reasoner     | 情绪与语义链路推理，识别断链、断层与流转障碍点 |
+| M4   | Repair Generator  | 提出链路修复建议，帮助用户重构表达意图 |
+| M5   | Delta Comparator  | 分析期待与现实之间的差异，生成体验偏差视图 |
+| M6   | Response Composer | 结构化生成回应语句，可配置语气风格与角色属性 |
 
 ---
 
-📄 License: MIT with commercial restriction — © 2025 Jacksth. Contact for commercial use or licensing.
+ 🧭 Upcoming Modules (M7–M10) — 自适应成长阶段：
+
+| ID   | Module Name           | Future Function |
+|------|------------------------|------------------|
+| M7   | Interaction Styler     | 多风格对话生成器：调侃 / 理性 / 温柔等风格切换 |
+| M8   | Emotion Curve Fitter   | 长期情绪趋势建模与压抑预警 |
+| M9   | Multi-step Reasoner    | 多轮情绪与逻辑追踪路径识别 |
+| M10  | Self Evolver           | AI自我评估 + 推理路径自我进化机制 |
+
+--
+
+💡 Commercial Use Vision 商业化应用构想：
+
+- Emotion-as-a-Service API for SaaS platforms  
+- Structural Understanding Core for AI copilots & assistants  
+- Sentiment-Based Feedback Engines for brands, games, education  
+- Cognitive Dialogue Companion for C-end emotional AI systems
+
+NovaSeed is not just recognizing keywords.  
+It understands why you said something, how you feel about it, and what could be said in return.
+
+NovaSeed 不是关键词识别工具，而是能理解背后“情绪源 + 触发因 + 波动路径”的结构 AI。
+
+---
+
+ 🔒 AI Collaboration Note / 说明：
+
+This project is created and driven by Rex.  
+While ChatGPT was used as an assistant tool, all architectural logic, module designs, and semantic strategies are human-defined and originated.
+
+本项目核心逻辑、模块机制与结构架构由 Rex 全部原创设计，AI 工具仅作为代码辅助建议工具使用。
+
+
